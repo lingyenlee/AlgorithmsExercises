@@ -99,3 +99,16 @@ looseClick();
 //can use bind function to bind the newButton and get the click function
 let boundButton = newButton.click.bind(newButton);
 boundButton();
+
+// let dog = {
+//   sound: "woof",
+//   talk: function() {
+//     console.log(this.sound);
+//   },
+// };
+
+// //dog.talk();
+// let talkFunction = dog.talk;
+// talkFunction();
+// let boundFunction = talkFunction.bind(dog);
+// boundFunction();
